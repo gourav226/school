@@ -1,0 +1,15 @@
+# Netlify configuration file for automatic build configuration
+
+[build]
+  # React app frontend subdirectory me hai
+  base = "frontend"
+  # Build Command to compile React
+  command = "npm run build"
+  # Publish Directory where compiled files are saved
+  publish = "dist"
+
+# Single Page Application redirects rule (fallback to index.html)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
