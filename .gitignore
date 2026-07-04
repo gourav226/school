@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Local databases
+backend/school.db
+
+# Production builds
+frontend/dist/
+
+# Editor configs and system files
+.vscode/
+.DS_Store
+*.log
+Thumbs.db
